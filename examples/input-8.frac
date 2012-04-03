@@ -1,0 +1,27 @@
+# use with peter
+<fractal>
+Lx       = 4.0                # physical size
+center_x = 0.0                # center
+center_y = -1.0
+
+a	 =  2.01
+b	 = -2.53
+c	 =  1.61
+d	 = -0.33
+
+method   = peter
+
+
+<image>
+# image size (pixels)
+Nx       = 4000
+Ny       = 3000
+
+npts     = 1e8
+
+cut	 = 9.0
+exp	 = 0.4
+
+file     = input-5.ppm
+
+<par_end>

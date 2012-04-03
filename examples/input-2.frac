@@ -1,0 +1,21 @@
+<fractal>
+Lx       = 4.5                # physical size
+center_x = 0.0                # center
+center_y = 0.0
+
+a	 = -1.4
+b	 =  1.6
+c	 =  1.0
+d	 =  0.7
+
+
+<image>
+# image size (pixels)
+Nx       = 2000
+Ny       = 2000
+
+npts     = 1e8;
+
+file     = input-2.ppm
+
+<par_end>

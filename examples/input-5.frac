@@ -1,0 +1,22 @@
+# use with svensson
+<fractal>
+Lx       = 20.0                # physical size
+center_x = 0.0                # center
+center_y = 0.0
+
+a	 =  1.40
+b	 =  1.56
+c	 =  1.40
+d	 = -6.56
+
+
+<image>
+# image size (pixels)
+Nx       = 2000
+Ny       = 1000
+
+npts     = 1e8;
+
+file     = input-5.ppm
+
+<par_end>
